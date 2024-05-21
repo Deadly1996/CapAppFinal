@@ -1,6 +1,6 @@
-namespace anubhav.cds;
+namespace myPO.cds;
 
-using { anubhav.db.master, anubhav.db.transaction } from './datamodel';
+using { myPO.db.master, myPO.db.transaction } from './datamodel';
 
 context CDSViews {
     define view![POWorklist] as

@@ -38,7 +38,7 @@
         "[development]":{
           "strategy": "mock",
           "users": {
-            "anubhav":{
+            "myPO":{
               "roles":["Viewer"],
               "userAttributes":{
                 "BankName":["$UNRESTRICTED"]

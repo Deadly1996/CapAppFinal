@@ -26,11 +26,11 @@ POST http://localhost:4004/odata/v4/CatalogService/EmployeeSet
 Content-Type: application/json
 
 {
-      "nameFirst": "Anubhav",
+      "nameFirst": "myPO",
       "nameLast": "Oberoi",
       "sex": "M",
       "phoneNumber": "(123) 456-7890",
-      "email": "anubhav.abap@gmail.com",
+      "email": "myPO.abap@gmail.com",
       "salaryAmount": 100000
 }
 
@@ -108,4 +108,4 @@ Content-Type: application/json
 
 ###Security Testing
 GET http://localhost:4004/odata/v4/CatalogService/EmployeeSet/$count
-Authorization: Basic anubhav:
+Authorization: Basic myPO:

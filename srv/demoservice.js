@@ -1,5 +1,5 @@
 const cds = require("@sap/cds");
-const { employees } = cds.entities("anubhav.db.master");
+const { employees } = cds.entities("myPO.db.master");
 
 module.exports = (srv) => {
      

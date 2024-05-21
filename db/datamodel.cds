@@ -1,7 +1,7 @@
-namespace anubhav.db;
+namespace myPO.db;
 
 using { cuid, managed, temporal, Currency } from '@sap/cds/common';
-using { anubhav.common } from './commons';
+using { myPO.common } from './commons';
 
 context master {
     

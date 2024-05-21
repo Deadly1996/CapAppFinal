@@ -1,5 +1,5 @@
-using { anubhav.db } from '../db/datamodel';
-using { anubhav.cds } from '../db/CDSViews';
+using { myPO.db } from '../db/datamodel';
+using { myPO.cds } from '../db/CDSViews';
 
 
 service CatalogService @(path : 'CatalogService', requires: 'authenticated-user') {
@@ -29,9 +29,9 @@ service CatalogService @(path : 'CatalogService', requires: 'authenticated-user'
 
     }
     actions{
-        @cds.odata.bindingparameter.name : '_anubhav'
+        @cds.odata.bindingparameter.name : '_myPO'
         @Common.SideEffects : {
-                TargetProperties : ['_anubhav/GROSS_AMOUNT']
+                TargetProperties : ['_myPO/GROSS_AMOUNT']
             }  
         action boost() returns PurchaseOrder;
         @cds.odata.bindingparameter.name : '_ananya'

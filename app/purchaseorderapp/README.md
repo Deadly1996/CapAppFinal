@@ -9,7 +9,7 @@
 |**Service Type**<br>Local Cap|
 |**Service URL**<br>http://localhost:4004/odata/v4/CatalogService/
 |**Module Name**<br>purchaseorderapp|
-|**Application Title**<br>AnubhavTrainings CAP|
+|**Application Title**<br>myPOTrainings CAP|
 |**Namespace**<br>po.app|
 |**UI5 Theme**<br>sap_horizon|
 |**UI5 Version**<br>1.118.1|
